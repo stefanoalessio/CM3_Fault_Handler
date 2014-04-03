@@ -1,10 +1,4 @@
-#include "ARMCM3.h"
-#include "div.h"
-
-void SysTick_Handler(void)
-{
-   ITM_SendChar('.');
-}
+#include "fault_handler.h"
 
 int main(void)
 {
@@ -16,7 +10,7 @@ int main(void)
    
    SCB->CCR |= 0x10;
    
-   c = div(a, b);
+   c = divide_by_zero(a, b);
    
    while(1);
 }

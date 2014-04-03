@@ -1,4 +1,8 @@
-This project is derived from feabhas/CM3_Fault_Handler repository on GitHub, this is the original file content:
+This repository contains a module to handle faults, giving detailed information using ARM exception registers.
+It is not meant to be a stand-alone program, but an example main.c is left for a usage example.
+Tested on IAR form v5.4 to v7.10
+
+This project is based on feabhas/CM3_Fault_Handler repository on GitHub. This is the original README file content:
 
 ARM Cortex-M3/Cortex-M4 (ARMv7-M) Hard Fault Exception Handler
 
