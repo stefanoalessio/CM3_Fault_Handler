@@ -1,6 +1,6 @@
 This repository contains a module to handle faults, giving detailed information using ARM exception registers. I tried to replicate all register definitions here to make it portable and not to rely on any cmsis or vendor-specific implementation, but the project was first created for a STM32 microcontroller, so keep it in mind if you experience any problem. It is not meant to be a stand-alone program, but an example main.c is left as a usage example.
 
-Tested on IAR form v5.4 to v7.10
+Tested on IAR from v5.4 to v7.10
 
 This project is based on feabhas/CM3_Fault_Handler repository on GitHub. This is the original README file content:
 
